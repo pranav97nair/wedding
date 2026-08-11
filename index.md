@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Home
 ---
@@ -8,7 +8,7 @@ title: Home
   <p style="font-size: 1.25rem; color: #555;">We are getting married! We can't wait to celebrate with you.</p>
 </div>
 
----
+--- -->
 
 ### Welcome to Our Wedding Website
 
