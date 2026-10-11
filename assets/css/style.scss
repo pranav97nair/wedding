@@ -79,3 +79,14 @@ a.btn, .main-content a.button {
     padding-top: 1.5rem;
   }
 }
+
+.back-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  horizontal-align: right;
+  text-decoration: none;
+}
+.back-link:hover { text-decoration: underline; }

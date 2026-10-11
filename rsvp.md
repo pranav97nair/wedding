@@ -3,7 +3,7 @@ layout: default
 title: RSVP
 ---
 
-# RSVP
+# RSVP <a href="/" class="back-link">Back to Home</a>
 
 Please complete the form below to let us know if you'll be attending. 
 
