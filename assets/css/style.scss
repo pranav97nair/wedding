@@ -1,0 +1,44 @@
+---
+---
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400&display=swap');
+
+:root {
+  --cream: #faf6f0;
+  --sage: #7d8f78;
+  --gold: #b99a5b;
+}
+
+body { 
+    background: var(--cream); 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+}
+
+h1, h2, h3 { 
+    font-family: 'Cormorant Garamond', serif; 
+    font-weight: 600; 
+    color: #3b3b3b; 
+}
+
+.page-header {
+  background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url('/assets/img/NY_selfie.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 2rem;
+}
+.page-header .project-name { 
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 4rem; 
+}
+.page-header .btn { 
+    display: none; 
+}
+
+a.btn, .main-content a.button {
+  background: var(--sage); 
+  border-radius: 999px; 
+  padding: .8rem 2rem; 
+  color: #fff;
+}
