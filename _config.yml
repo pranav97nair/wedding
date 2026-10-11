@@ -1,5 +1,7 @@
 title: "Pranav & Marie"
-description: "We're getting married! Join us on our special day."
+description: |
+  We're getting married!
+  Join us on our special day.
 url: "https://pranavetmarie.fr"
 
 theme: jekyll-theme-cayman

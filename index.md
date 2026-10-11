@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Pranav & Marie
-description: July 31st, 2027 · Saint-Georges-de-Baroille
+description: |
+  July 31st, 2027
+  Saint-Georges-de-Baroille, France
 ---
 
 <div style="text-align: center; padding: 2rem 0;">

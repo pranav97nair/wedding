@@ -25,7 +25,11 @@ h1, h2, h3 {
 .page-header {
   background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url('/assets/img/NY_selfie.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 17% 56%;
+  box-sizing: border-box;
+  height: clamp(320px, 50vh, 540px);
+  max-width: 1920px;
+  margin: 0 auto;
   padding: 8rem 2rem;
 }
 .page-header .project-name { 
@@ -48,6 +52,7 @@ h1, h2, h3 {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+  white-space: pre-line;
 }
 .page-header .btn { 
     display: none; 
