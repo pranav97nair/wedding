@@ -7,13 +7,12 @@ description: |
 ---
 
 <div style="text-align: center; padding: 2rem 0;">
-  <h1>Pranav & Marie</h1>
-  <p style="font-size: 1.25rem; color: #555;">We are getting married! We can't wait to celebrate with you.</p>
+  <h1>We are getting married! We can't wait to celebrate with you.</h1>
 </div>
 
 ---
 
-### Welcome to Our Wedding Website
+## Welcome to Our Wedding Website
 
 We're so excited to share this special day with our favorite people. Here you'll find all the details you need about our upcoming wedding.
 

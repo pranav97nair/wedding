@@ -24,13 +24,18 @@ h1, h2, h3 {
 
 .page-header {
   background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url('/assets/img/NY_selfie.jpg');
+
   background-size: cover;
-  background-position: 17% 56%;
+  background-position: 9% 56%;
   box-sizing: border-box;
   height: clamp(320px, 50vh, 540px);
   max-width: 1920px;
   margin: 0 auto;
-  padding: 8rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 5rem;
 }
 .page-header .project-name { 
     font-family: 'Cormorant Garamond', serif; 
@@ -63,4 +68,10 @@ a.btn, .main-content a.button {
   border-radius: 999px; 
   padding: .8rem 2rem; 
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .page-header { 
+    padding-top: 1.5rem;
+  }
 }
